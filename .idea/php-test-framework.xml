@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpTestFrameworkSettings">
+    <test_tools>
+      <tool tool_name="Codeception">
+        <settings>
+          <configurations>
+            <local_configuration executable_path="$PROJECT_DIR$/vendor/codeception/codeception/codecept" />
+            <configuration_by_sdk interpreter_id="42e67197-7b81-4700-8030-3e347e8ea628" executable_path="/Users/brie/PhpstormProjects/final-official/vendor/codeception/codeception/codecept" />
+          </configurations>
+        </settings>
+      </tool>
+    </test_tools>
+  </component>
+</project>
