@@ -28,3 +28,16 @@
 2017-08-07 23:57:39 140312605547592 [Note] Server socket created on IP: '::'.
 2017-08-07 23:57:39 140312605547592 [Note] /usr/bin/mysqld: ready for connections.
 Version: '10.1.16-MariaDB'  socket: '/run/mysqld/mysqld.sock'  port: 3306  MariaDB Server
+2017-08-09  3:20:29 140312130722480 [Warning] IP address '172.18.0.1' could not be resolved: Name does not resolve
+2017-08-09  3:26:21 140312130415280 [Note] InnoDB: Online DDL : Start
+2017-08-09  3:26:21 140312130415280 [Note] InnoDB: Online DDL : Start reading clustered index of the table and create temporary files
+2017-08-09  3:26:21 140312130415280 [Note] InnoDB: Online DDL : End of reading clustered index of the table and create temporary files
+2017-08-09  3:26:21 140312130415280 [Note] InnoDB: Online DDL : Completed
+2017-08-09  3:33:08 140312130415280 [Note] InnoDB: Online DDL : Start
+2017-08-09  3:33:08 140312130415280 [Note] InnoDB: Online DDL : Start reading clustered index of the table and create temporary files
+2017-08-09  3:33:08 140312130415280 [Note] InnoDB: Online DDL : End of reading clustered index of the table and create temporary files
+2017-08-09  3:33:08 140312130415280 [Note] InnoDB: Online DDL : Completed
+2017-08-09  3:33:08 140312130415280 [Note] InnoDB: Online DDL : Start
+2017-08-09  3:33:08 140312130415280 [Note] InnoDB: Online DDL : Start reading clustered index of the table and create temporary files
+2017-08-09  3:33:08 140312130415280 [Note] InnoDB: Online DDL : End of reading clustered index of the table and create temporary files
+2017-08-09  3:33:08 140312130415280 [Note] InnoDB: Online DDL : Completed
