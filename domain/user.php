@@ -15,21 +15,37 @@ class user
 
     public function UserID($id) {
         $this->userID = $id;
-        return this;
+        return $this;
+    }
+
+    public function getUserID(){
+        return $this->userID;
     }
 
     public function UserName($name) {
         $this->userName = $name;
-        return this;
+        return $this;
+    }
+
+    public function getUserName(){
+        return $this->userName;
     }
 
     public function UserEmail($email) {
         $this->userEmail = $email;
-        return this;
+        return $this;
+    }
+
+    public function getUserEmail(){
+        return $this->userEmail;
     }
 
     public function UserActive($active) {
         $this->userActive = $active;
-        return this;
+        return $this;
+    }
+
+    public function getUserActive(){
+        return $this->userActive;
     }
 }

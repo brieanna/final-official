@@ -1,7 +1,7 @@
 <?php
 
 
-class ExampleTest extends \Codeception\Test\Unit
+class AnExampleTest extends \Codeception\Test\Unit
 {
     /**
      * @var \UnitTester

@@ -18,9 +18,17 @@ class message
         return $this;
     }
 
+    public function getMessageID(){
+        return $this->messageID;
+    }
+
     public function MessageText($txt) {
         $this->messageText = $txt;
         return $this;
+    }
+
+    public function getMessageText(){
+        return $this->messageText;
     }
 
     public function MessageDateTime($date){
@@ -28,9 +36,17 @@ class message
         return $this;
     }
 
-    public function roomUserID($id) {
+    public function getMessageDateTime(){
+        return $this->messageDatetime;
+    }
+
+    public function RoomUserID($id) {
         $this->roomUserID = $id;
         return $this;
+    }
+
+    public function getRoomUserID(){
+        return $this->roomUserID;
     }
 
 }

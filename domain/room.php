@@ -16,26 +16,46 @@ class room
 
     public function RoomID($id) {
         $this->roomID = $id;
-        return this;
+        return $this;
+    }
+
+    public function getRoomID(){
+        return $this->roomID;
     }
 
     public function RoomName($name) {
         $this->roomName = $name;
-        return this;
+        return $this;
+    }
+
+    public function getRoomName(){
+        return $this->roomName;
     }
 
     public function RoomActive($active) {
         $this->roomActive = $active;
-        return this;
+        return $this;
+    }
+
+    public function gerRoomActive(){
+        return $this->roomActive;
     }
 
     public function RoomCreatedDate($date){
         $this->roomCreatedDate = $date;
-        return this;
+        return $this;
+    }
+
+    public function getRoomCreatedDate(){
+        return $this->roomCreatedDate;
     }
 
     public function RoomLastPostDate($date){
         $this->roomCreatedDate = $date;
-        return this;
+        return $this;
+    }
+
+    public function getRoomLastPostDate(){
+        return $this->roomLastPostDate;
     }
 }
