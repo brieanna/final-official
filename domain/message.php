@@ -9,27 +9,28 @@ namespace Domain;
 class message
 {
     protected $messageID;
-    protected $roomID;
-    protected $userID;
-    protected $message;
+    protected $messageText;
+    protected $messageDatetime;
+    protected $roomUserID;
 
     public function MessageID($id) {
         $this->messageID = $id;
         return $this;
     }
 
-    public function RoomID($id) {
-        $this->roomID = $id;
+    public function MessageText($txt) {
+        $this->messageText = $txt;
         return $this;
     }
 
-    public function UserID($id) {
-        $this->userID = $id;
+    public function MessageDateTime($date){
+        $this->messageDatetime = $date;
         return $this;
     }
 
-    public function Message($message) {
-        $this->message = $message;
-        return this;
+    public function roomUserID($id) {
+        $this->roomUserID = $id;
+        return $this;
     }
+
 }

@@ -11,6 +11,8 @@ class room
     protected $roomID;
     protected $roomName;
     protected $roomActive;
+    protected $roomCreatedDate;
+    protected $roomLastPostDate;
 
     public function RoomID($id) {
         $this->roomID = $id;
@@ -24,6 +26,16 @@ class room
 
     public function RoomActive($active) {
         $this->roomActive = $active;
+        return this;
+    }
+
+    public function RoomCreatedDate($date){
+        $this->roomCreatedDate = $date;
+        return this;
+    }
+
+    public function RoomLastPostDate($date){
+        $this->roomCreatedDate = $date;
         return this;
     }
 }
