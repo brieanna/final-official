@@ -37,7 +37,7 @@ class room
         return $this;
     }
 
-    public function gerRoomActive(){
+    public function getRoomActive(){
         return $this->roomActive;
     }
 
@@ -51,7 +51,7 @@ class room
     }
 
     public function RoomLastPostDate($date){
-        $this->roomCreatedDate = $date;
+        $this->roomLastPostDate = $date;
         return $this;
     }
 

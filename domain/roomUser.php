@@ -59,6 +59,6 @@ class roomUser
     }
 
     public function getRoomUserJoinedDate(){
-        $this->roomUserJoinedDate;
+        return $this->roomUserJoinedDate;
     }
 }
