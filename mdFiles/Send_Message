@@ -1,34 +1,36 @@
-## Update User Profile
-Update the profile for a specific user account.
+## Send Message
+Send a Message to a chat-room as a user
 
-`PUT /account/{userId}/profile`
+`POST /message/{roomUserID}/{messageText}`
 
 ### Headers
+- **ContentType** - Application/json
 - **AuthSessionId** - Identifier for current session
-- **AuthSessionSecret** - Secret for current session
 
 ### Parameters
-- **userId** - Identifier for current user
+- **roomUserID** - Identifier for current user in a chat-room
+- **messageText** - Message to be posted to the chat-room
 
 ### Body
-- **username** - Username to update to
-- **email** - E-mail address to update to
-
+- **userID** - Identifier for the current user
+- **roomID** - Identifier for the room to post to
+- **messageText** - Message to be added to the chat-room
 ### Response
-- **userId** - Identifier for the user
+- **messageID** - Identifier for the message
 
 ### Errors
-- **ErrorCode1** - Caused by missing identifier
-- **ErrorCode2** - Username was not given
-- **ErrorCode3** - Server exploded
+- **400** - Bad Request (missing parameters)
+- **401** - Unauthorized (not a user)
+- **500** - Server exploded
 
 ### Example Request
-`GET /account/1692/profile`
+`POST /message/16/hello`
 
 ```javascript
 {
-	username: "NewUsername",
-	email: "Email@Email.com"
+	userID: 23,
+	roomID: 11,
+	messageText: "hello"
 }
 ```
 
@@ -37,7 +39,7 @@ Update the profile for a specific user account.
 
 ```javascript
 {
-	userId: 1692
+	messageId: 1692
 }
 ```
 

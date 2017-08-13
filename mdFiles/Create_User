@@ -1,14 +1,14 @@
-## Update User Profile
-Update the profile for a specific user account.
+## Create a new User
+allow the user to give an alias and an email to get an access token
 
-`PUT /account/{userId}/profile`
+`POST /user/{userName}/{email}`
 
 ### Headers
-- **AuthSessionId** - Identifier for current session
-- **AuthSessionSecret** - Secret for current session
+- **ContentType** - Application/json
 
 ### Parameters
-- **userId** - Identifier for current user
+- **userName** - alias for the user to go by
+- **email** - unique identifier for user
 
 ### Body
 - **username** - Username to update to
@@ -16,14 +16,15 @@ Update the profile for a specific user account.
 
 ### Response
 - **userId** - Identifier for the user
+- **accessToken** - Token to allow access to things only users can do
 
 ### Errors
-- **ErrorCode1** - Caused by missing identifier
-- **ErrorCode2** - Username was not given
-- **ErrorCode3** - Server exploded
+- **400** - Bad Request (parameter missing)
+- **409** - Conflict (already exists)
+- **500** - Server exploded
 
 ### Example Request
-`GET /account/1692/profile`
+`POST /user/NewUsername/Email@Email.com`
 
 ```javascript
 {
@@ -33,11 +34,12 @@ Update the profile for a specific user account.
 ```
 
 ### Example Response
-`200 OK`
+`201 CREATED`
 
 ```javascript
 {
-	userId: 1692
+	userId: 1692,
+	accessToken: "2K54J34LKJLK223"
 }
 ```
 

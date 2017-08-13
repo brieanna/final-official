@@ -39,3 +39,10 @@ Once created a chat-room stores all the data (messages sent to the room, who has
 |20|Have integration tests for all the end-points|
 |100| **TOTAL** |
 
+### new readme file
+
+- what when wrong
+- what I learned
+- how much time I put into this project
+- resources that I used
+- what difficulties I ran into and how I overcame them

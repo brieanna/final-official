@@ -1,39 +1,40 @@
-## Update User Profile
+## Leave Chat Room
 Update the profile for a specific user account.
 
-`PUT /account/{userId}/profile`
+`DELETE /roomUser/{roomUserID}`
 
 ### Headers
+- **ContentType** - Application/json
 - **AuthSessionId** - Identifier for current session
-- **AuthSessionSecret** - Secret for current session
 
 ### Parameters
-- **userId** - Identifier for current user
+- **RoomUserID** - Identifier for current user in the room
 
 ### Body
-- **username** - Username to update to
-- **email** - E-mail address to update to
+- **userID** - Identifier for the current user
+- **roomID** - Identifier for the current room
 
 ### Response
 - **userId** - Identifier for the user
 
 ### Errors
-- **ErrorCode1** - Caused by missing identifier
-- **ErrorCode2** - Username was not given
-- **ErrorCode3** - Server exploded
+- **400** - Bad Request (missing parameters)
+- **401** - Unauthorized (not a user / not joined to room)
+- **500** - Server exploded
 
 ### Example Request
-`GET /account/1692/profile`
+`DELETE /roomUser/692`
 
 ```javascript
 {
-	username: "NewUsername",
-	email: "Email@Email.com"
+	roomUserID: 692,
+	userId: 1692,
+	roomID: 98
 }
 ```
 
 ### Example Response
-`200 OK`
+`204 No Content`
 
 ```javascript
 {

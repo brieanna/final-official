@@ -1,43 +1,45 @@
-## Update User Profile
-Update the profile for a specific user account.
+## Archive Chat Room
+Chat-rooms should be archived automatically after no use for 7 days.
 
-`PUT /account/{userId}/profile`
+`Patch /room/{roomID}`
 
 ### Headers
+- **ContentType** - Application/json
 - **AuthSessionId** - Identifier for current session
-- **AuthSessionSecret** - Secret for current session
 
 ### Parameters
-- **userId** - Identifier for current user
+- **roomID** - Identifier for current chat-room
 
 ### Body
-- **username** - Username to update to
-- **email** - E-mail address to update to
+- **roomID** - Identifier for current chat-room 
+- **roomActive** - identifies if room is active or archived
 
 ### Response
-- **userId** - Identifier for the user
+- **roomName** - Name of the chat-room
+- **roomName** - identifies if room is active or archived
 
 ### Errors
-- **ErrorCode1** - Caused by missing identifier
-- **ErrorCode2** - Username was not given
-- **ErrorCode3** - Server exploded
+- **400** - Bad Request (missing parameters)
+- **401** - Unauthorized (not a user/ not joined to room)
+- **500** - Server exploded
 
 ### Example Request
-`GET /account/1692/profile`
+`Patch /room/102`
 
 ```javascript
 {
-	username: "NewUsername",
-	email: "Email@Email.com"
+	roomID: 102,
+	roomActive: 0
 }
 ```
 
 ### Example Response
-`200 OK`
+`204 No Content`
 
 ```javascript
 {
-	userId: 1692
+	roomName: "fakeChat",
+	roomActive: 0
 }
 ```
 

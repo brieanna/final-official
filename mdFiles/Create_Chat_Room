@@ -1,0 +1,46 @@
+## Create Chat Room
+Create new chat-room for users to post messages to
+
+`POST /room/{roomName}`
+
+### Headers
+- **ContentType** - Application/json
+- **AuthSessionId** - Identifier for current session
+
+### Parameters
+- **roomName** - Room identifier for user 
+
+### Body
+- **username** - Username who created the chat-room
+- **roomName** - Name of the new chat-room
+- **roomActive** - will be set to 1 when created showing active
+- **roomCreatedDate** - get a date stamp
+
+### Response
+- **roomName** - Has been created successfully
+- **roomID** - identifier for the room
+
+### Errors
+- **400** - Bad Request (missing parameter)
+- **409** - Conflict (already exists)
+- **500** - Server exploded
+
+### Example Request
+`GET /room/NewChatRoom`
+
+```javascript
+{
+	username: "NewChatRoom"
+}
+```
+
+### Example Response
+`201 CREATED`
+
+```javascript
+{
+	roomId: 162,
+	roomName: "NewChatRoom"
+}
+```
+

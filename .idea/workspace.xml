@@ -2,21 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd47040a-1747-4214-a3ef-94b5783d55d5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/database.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mdFiles/Archive_Chat_Room" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mdFiles/Create_Chat_Rooms" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mdFiles/Create_User" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mdFiles/Join_Chat_Rooms" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mdFiles/Leave_Chat_Room" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mdFiles/List_Chat_Rooms" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mdFiles/Send_Message" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mdFiles/View_All_Messages" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/settings.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/plugins/mySQLRoom.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/plugins/mySQLRoomUser.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/plugins/mySQLUser.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mdFiles/UPDATE_USER.md" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mdFiles/Create_Chat_Room" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mdFiles/Join_Chat_Room" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdFiles/Create_Chat_Rooms" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdFiles/Join_Chat_Rooms" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mdFiles/Archive_Chat_Room" afterPath="$PROJECT_DIR$/mdFiles/Archive_Chat_Room" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mdFiles/Create_User" afterPath="$PROJECT_DIR$/mdFiles/Create_User" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mdFiles/Leave_Chat_Room" afterPath="$PROJECT_DIR$/mdFiles/Leave_Chat_Room" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mdFiles/List_Chat_Rooms" afterPath="$PROJECT_DIR$/mdFiles/List_Chat_Rooms" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mdFiles/Send_Message" afterPath="$PROJECT_DIR$/mdFiles/Send_Message" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mdFiles/View_All_Messages" afterPath="$PROJECT_DIR$/mdFiles/View_All_Messages" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -79,6 +76,42 @@
         <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
       </PATH_ELEMENT>
     </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="@localhost (cs3620-root)" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="cs3620" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="room" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="@localhost (cs3620-root)" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="cs3620" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="message" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
@@ -95,15 +128,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Create_Chat_Rooms" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mdFiles/Create_Chat_Rooms">
+      <file leaf-file-name="Create_Chat_Room" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mdFiles/Create_Chat_Room">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="564">
-                <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+              <first_editor relative-caret-position="90">
+                <caret line="6" column="26" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
                 <folding>
-                  <marker date="1502580524000" expanded="true" signature="627:682" ph="{...}" />
-                  <marker date="1502580524000" expanded="true" signature="733:750" ph="{...}" />
+                  <marker date="1502596406000" expanded="true" signature="750:778" ph="{...}" />
+                  <marker date="1502596406000" expanded="true" signature="834:876" ph="{...}" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -115,10 +148,11 @@
         <entry file="file://$PROJECT_DIR$/mdFiles/List_Chat_Rooms">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="564">
-                <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+              <first_editor relative-caret-position="390">
+                <caret line="26" column="10" lean-forward="false" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
                 <folding>
-                  <marker date="1502580524000" expanded="true" signature="627:682" ph="{...}" />
+                  <marker date="1502598785000" expanded="true" signature="641:659" ph="{...}" />
+                  <marker date="1502598785000" expanded="true" signature="710:810" ph="{...}" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -126,15 +160,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Join_Chat_Rooms" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mdFiles/Join_Chat_Rooms">
+      <file leaf-file-name="Join_Chat_Room" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mdFiles/Join_Chat_Room">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="564">
-                <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+              <first_editor relative-caret-position="299">
+                <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="25" selection-end-column="27" />
                 <folding>
-                  <marker date="1502580524000" expanded="true" signature="627:682" ph="{...}" />
-                  <marker date="1502580524000" expanded="true" signature="733:750" ph="{...}" />
+                  <marker date="1502597512000" expanded="true" signature="713:777" ph="{...}" />
+                  <marker date="1502597512000" expanded="true" signature="828:878" ph="{...}" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -146,11 +180,11 @@
         <entry file="file://$PROJECT_DIR$/mdFiles/Leave_Chat_Room">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="564">
-                <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+              <first_editor relative-caret-position="315">
+                <caret line="21" column="57" lean-forward="false" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
                 <folding>
-                  <marker date="1502580524000" expanded="true" signature="627:682" ph="{...}" />
-                  <marker date="1502580524000" expanded="true" signature="733:750" ph="{...}" />
+                  <marker date="1502599844000" expanded="true" signature="638:686" ph="{...}" />
+                  <marker date="1502599844000" expanded="true" signature="745:762" ph="{...}" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -162,11 +196,11 @@
         <entry file="file://$PROJECT_DIR$/mdFiles/Send_Message">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="564">
-                <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+              <first_editor relative-caret-position="90">
+                <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="36" />
                 <folding>
-                  <marker date="1502580524000" expanded="true" signature="627:682" ph="{...}" />
-                  <marker date="1502580524000" expanded="true" signature="733:750" ph="{...}" />
+                  <marker date="1502598756000" expanded="true" signature="745:796" ph="{...}" />
+                  <marker date="1502598756000" expanded="true" signature="847:867" ph="{...}" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -178,11 +212,11 @@
         <entry file="file://$PROJECT_DIR$/mdFiles/Create_User">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="564">
-                <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+              <first_editor relative-caret-position="330">
+                <caret line="22" column="36" lean-forward="false" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
                 <folding>
-                  <marker date="1502580524000" expanded="true" signature="627:682" ph="{...}" />
-                  <marker date="1502580524000" expanded="true" signature="733:750" ph="{...}" />
+                  <marker date="1502596359000" expanded="true" signature="687:742" ph="{...}" />
+                  <marker date="1502596359000" expanded="true" signature="798:848" ph="{...}" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -194,11 +228,11 @@
         <entry file="file://$PROJECT_DIR$/mdFiles/View_All_Messages">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="564">
-                <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+              <first_editor relative-caret-position="690">
+                <caret line="46" column="32" lean-forward="false" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="32" />
                 <folding>
-                  <marker date="1502580524000" expanded="true" signature="627:682" ph="{...}" />
-                  <marker date="1502580524000" expanded="true" signature="733:750" ph="{...}" />
+                  <marker date="1502599487000" expanded="true" signature="805:866" ph="{...}" />
+                  <marker date="1502599487000" expanded="true" signature="917:1017" ph="{...}" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -210,12 +244,25 @@
         <entry file="file://$PROJECT_DIR$/mdFiles/Archive_Chat_Room">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="564">
-                <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+              <first_editor relative-caret-position="160">
+                <caret line="14" column="32" lean-forward="false" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
                 <folding>
-                  <marker date="1502580524000" expanded="true" signature="627:682" ph="{...}" />
-                  <marker date="1502580524000" expanded="true" signature="733:750" ph="{...}" />
+                  <marker date="1502600008000" expanded="true" signature="708:740" ph="{...}" />
+                  <marker date="1502600008000" expanded="true" signature="799:840" ph="{...}" />
                 </folding>
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="297">
+                <caret line="47" column="54" lean-forward="false" selection-start-line="47" selection-start-column="54" selection-end-line="47" selection-end-column="54" />
+                <folding />
               </first_editor>
               <second_editor />
             </state>
@@ -254,13 +301,15 @@
         <option value="$PROJECT_DIR$/storage/plugins/mySQLUser.php" />
         <option value="$PROJECT_DIR$/config/database.php" />
         <option value="$PROJECT_DIR$/settings.php" />
-        <option value="$PROJECT_DIR$/mdFiles/View_All_Messages" />
-        <option value="$PROJECT_DIR$/mdFiles/Send_Message" />
-        <option value="$PROJECT_DIR$/mdFiles/List_Chat_Rooms" />
-        <option value="$PROJECT_DIR$/mdFiles/Leave_Chat_Room" />
-        <option value="$PROJECT_DIR$/mdFiles/Join_Chat_Rooms" />
+        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/mdFiles/Create_User" />
         <option value="$PROJECT_DIR$/mdFiles/Create_Chat_Rooms" />
+        <option value="$PROJECT_DIR$/mdFiles/Join_Chat_Rooms" />
+        <option value="$PROJECT_DIR$/mdFiles/Join_Chat_Room" />
+        <option value="$PROJECT_DIR$/mdFiles/Send_Message" />
+        <option value="$PROJECT_DIR$/mdFiles/List_Chat_Rooms" />
+        <option value="$PROJECT_DIR$/mdFiles/View_All_Messages" />
+        <option value="$PROJECT_DIR$/mdFiles/Leave_Chat_Room" />
         <option value="$PROJECT_DIR$/mdFiles/Archive_Chat_Room" />
       </list>
     </option>
@@ -385,6 +434,20 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="final-official" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="final-official" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="domain" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -496,12 +559,12 @@
       <updated>1500511028175</updated>
       <workItem from="1500511029482" duration="1605000" />
       <workItem from="1500512716793" duration="793000" />
-      <workItem from="1501112515511" duration="37358000" />
+      <workItem from="1501112515511" duration="44070000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39756000" />
+    <option name="totallyTimeSpent" value="46468000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="6" />
@@ -515,7 +578,7 @@
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4122024" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19108762" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32973805" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16993958" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16993958" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32886904" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -663,17 +726,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="300">
-            <caret line="20" column="18" lean-forward="false" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-            <folding />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -844,7 +896,7 @@
         <state relative-caret-position="75">
           <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding>
-            <element signature="e#99#155#0#PHP" expanded="true" />
+            <element signature="e#99#155#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -878,7 +930,7 @@
         <state relative-caret-position="313">
           <caret line="28" column="2" lean-forward="false" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="2" />
           <folding>
-            <element signature="e#6#85#0#PHP" expanded="true" />
+            <element signature="e#6#85#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -912,28 +964,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mdFiles/View_All_Messages">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="564">
-            <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-            <folding>
-              <marker date="1502580524000" expanded="true" signature="627:682" ph="{...}" />
-              <marker date="1502580524000" expanded="true" signature="733:750" ph="{...}" />
-            </folding>
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="297">
+            <caret line="47" column="54" lean-forward="false" selection-start-line="47" selection-start-column="54" selection-end-line="47" selection-end-column="54" />
+            <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mdFiles/Send_Message">
+    <entry file="file://$PROJECT_DIR$/mdFiles/Create_User">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="564">
-            <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <first_editor relative-caret-position="330">
+            <caret line="22" column="36" lean-forward="false" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
             <folding>
-              <marker date="1502580524000" expanded="true" signature="627:682" ph="{...}" />
-              <marker date="1502580524000" expanded="true" signature="733:750" ph="{...}" />
+              <marker date="1502596359000" expanded="true" signature="687:742" ph="{...}" />
+              <marker date="1502596359000" expanded="true" signature="798:848" ph="{...}" />
             </folding>
           </first_editor>
           <second_editor />
@@ -943,10 +992,67 @@
     <entry file="file://$PROJECT_DIR$/mdFiles/List_Chat_Rooms">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="564">
-            <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <first_editor relative-caret-position="390">
+            <caret line="26" column="10" lean-forward="false" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
             <folding>
-              <marker date="1502580524000" expanded="true" signature="627:682" ph="{...}" />
+              <marker date="1502598785000" expanded="true" signature="641:659" ph="{...}" />
+              <marker date="1502598785000" expanded="true" signature="710:810" ph="{...}" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mdFiles/Send_Message">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="90">
+            <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="36" />
+            <folding>
+              <marker date="1502598756000" expanded="true" signature="745:796" ph="{...}" />
+              <marker date="1502598756000" expanded="true" signature="847:867" ph="{...}" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mdFiles/Join_Chat_Room">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="299">
+            <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="25" selection-end-column="27" />
+            <folding>
+              <marker date="1502597512000" expanded="true" signature="713:777" ph="{...}" />
+              <marker date="1502597512000" expanded="true" signature="828:878" ph="{...}" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mdFiles/View_All_Messages">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="690">
+            <caret line="46" column="32" lean-forward="false" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="32" />
+            <folding>
+              <marker date="1502599487000" expanded="true" signature="805:866" ph="{...}" />
+              <marker date="1502599487000" expanded="true" signature="917:1017" ph="{...}" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mdFiles/Create_Chat_Room">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="90">
+            <caret line="6" column="26" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <folding>
+              <marker date="1502596406000" expanded="true" signature="750:778" ph="{...}" />
+              <marker date="1502596406000" expanded="true" signature="834:876" ph="{...}" />
             </folding>
           </first_editor>
           <second_editor />
@@ -956,53 +1062,11 @@
     <entry file="file://$PROJECT_DIR$/mdFiles/Leave_Chat_Room">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="564">
-            <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <first_editor relative-caret-position="315">
+            <caret line="21" column="57" lean-forward="false" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
             <folding>
-              <marker date="1502580524000" expanded="true" signature="627:682" ph="{...}" />
-              <marker date="1502580524000" expanded="true" signature="733:750" ph="{...}" />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mdFiles/Join_Chat_Rooms">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="564">
-            <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-            <folding>
-              <marker date="1502580524000" expanded="true" signature="627:682" ph="{...}" />
-              <marker date="1502580524000" expanded="true" signature="733:750" ph="{...}" />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mdFiles/Create_User">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="564">
-            <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-            <folding>
-              <marker date="1502580524000" expanded="true" signature="627:682" ph="{...}" />
-              <marker date="1502580524000" expanded="true" signature="733:750" ph="{...}" />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mdFiles/Create_Chat_Rooms">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="564">
-            <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-            <folding>
-              <marker date="1502580524000" expanded="true" signature="627:682" ph="{...}" />
-              <marker date="1502580524000" expanded="true" signature="733:750" ph="{...}" />
+              <marker date="1502599844000" expanded="true" signature="638:686" ph="{...}" />
+              <marker date="1502599844000" expanded="true" signature="745:762" ph="{...}" />
             </folding>
           </first_editor>
           <second_editor />
@@ -1012,11 +1076,11 @@
     <entry file="file://$PROJECT_DIR$/mdFiles/Archive_Chat_Room">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="564">
-            <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <first_editor relative-caret-position="160">
+            <caret line="14" column="32" lean-forward="false" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
             <folding>
-              <marker date="1502580524000" expanded="true" signature="627:682" ph="{...}" />
-              <marker date="1502580524000" expanded="true" signature="733:750" ph="{...}" />
+              <marker date="1502600008000" expanded="true" signature="708:740" ph="{...}" />
+              <marker date="1502600008000" expanded="true" signature="799:840" ph="{...}" />
             </folding>
           </first_editor>
           <second_editor />

@@ -1,0 +1,48 @@
+## Join Chat Room
+Allows user to join a chat-room
+
+`POST /roomUser/{userID}/{roomID}`
+
+### Headers
+- **ContentType** - Application/json
+- **AuthSessionID** - Identifier for current session
+
+### Parameters
+- **userID** - Identifier for current user
+- **roomID** - Identifier for the room to join
+
+### Body
+- **roomUserJoinedDate** - date user joined the room
+
+
+### Response
+- **roomUserID** - Identifier for the room and user
+- **accessToken** - Token allowing access to the room for the user
+
+### Errors
+- **400** - Bad Request (missing parameters)
+- **409** - Conflict (already joined)
+- **401** - Unauthorized (not a user)
+- **500** - Server exploded
+
+### Example Request
+`POST /roomUser/692/23`
+
+```javascript
+{
+	userID: 692,
+	roomID: 23,
+	roomUserJoinedDate: '08/12/2017'
+}
+```
+
+### Example Response
+`200 OK`
+
+```javascript
+{
+	roomUserID: 189,
+	accessToken: "AL98SDF8923J"
+}
+```
+

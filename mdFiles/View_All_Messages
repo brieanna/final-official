@@ -1,34 +1,39 @@
-## Update User Profile
-Update the profile for a specific user account.
+## View All Messages
+View all messages in the joined chat-room based on date range
 
-`PUT /account/{userId}/profile`
+`GET /message/{roomID}/{beginDate}/{endDate}`
 
 ### Headers
+- **ContentType** - Application/json
 - **AuthSessionId** - Identifier for current session
-- **AuthSessionSecret** - Secret for current session
 
 ### Parameters
-- **userId** - Identifier for current user
+- **roomID** - IDentifier for the chat-room
+- **beginDate** - First message date
+- **endDate** - Last message date
 
 ### Body
-- **username** - Username to update to
-- **email** - E-mail address to update to
+- **beginDate** - First message date
+- **endDate** - Last message date
 
 ### Response
-- **userId** - Identifier for the user
+- **messageId** - Identifier for the message
+- **messageText** - text of the message
+- **messageDatetime** - date and time the message was posted
 
 ### Errors
-- **ErrorCode1** - Caused by missing identifier
-- **ErrorCode2** - Username was not given
-- **ErrorCode3** - Server exploded
+- **400** - Bad Request (missing parameters)
+- **401** - Unauthorized (not a user)
+- **500** - Server exploded
 
 ### Example Request
-`GET /account/1692/profile`
-
+`GET /message/123/ 08/01/17 / 08/15/17`
+ 
 ```javascript
 {
-	username: "NewUsername",
-	email: "Email@Email.com"
+	roomID: 22,
+	beginDate: '08/01/17',
+	endDate: '08/15/17'
 }
 ```
 
@@ -37,7 +42,9 @@ Update the profile for a specific user account.
 
 ```javascript
 {
-	userId: 1692
+	messageId: 692,
+	messageText: "this is the text of the message",
+	messageDatetime: '08/11/2017'
 }
 ```
 
